@@ -1,0 +1,26 @@
+Show
+
+<% if @item %>
+<section>
+  <article>
+    <dl>
+      <dt>Item :</dt>
+      <dd><%=@item['item']%></dd>
+    </dl>
+    <dl>
+      <dt>Details :</dt>
+      <dd><%=@item['details']%></dd>
+    </dl>
+    <div>
+      <a href="/edit/<%= @item['id'] %>">Edit</a>
+      </div>
+      <div>
+        <form action ="/delete/<%= @item['id'] %>" method="post">
+  <button>Delete task</button>
+
+  </form>
+</div>
+    </article>
+  </section>
+
+  <% end %>

@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Text+Me+One);
+@import url(http://fonts.googleapis.com/css?family=Stalinist+One);
+ 
+article
+{
+  border-bottom: 1px solid #F2D03B;
+  margin: 20px 0px 20px 0px;
+  width: 400px;
+  padding-bottom: 10px;
+}
+ 
+article .link {
+  margin: 10px 10px 0 0;
+  float: left;
+}
+ 
+.clear_both {
+  clear: both;
+}
+ 
+body
+{
+  background-color: #00A1D9;
+  font-family: 'Text Me One', sans-serif;
+  padding: 25px;
+}
+ 
+header h1 {
+  font-family: 'Stalinist One', sans-serif;
+  margin: 15px auto;
+}
+ 
+.branding {
+  font-size: 225%;
+  font-style: italic;
+}
+ 
+dt {
+  display: inline-block;
+  width: 100px;
+}
+dd {
+  display: inline-block;
+}
+ 
+a
+{
+  border: 1px dashed #003056;
+  text-decoration: none;
+  color: #003056;
+  padding: 2px;
+}
+ 
+li
+{
+  padding: 10px;
+}
+ 
+input, textarea
+{
+  width: 300px;
+}
+ 
+textarea
+{
+  height: 200px;
+}

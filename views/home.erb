@@ -1,0 +1,20 @@
+This is my index <a href="/video">Show video background</a>
+
+<section>
+
+  <% if @items %>
+  <% @items.each do |item| %>
+  <article>
+    <dl>
+      <dt>Item: </dt><dd><%= item['item'] %> </dd>
+      <!-- <dt>Details: </dt><dd><%= item['details'] %></dd> -->
+    </dl>
+    <div>
+      <a href="/show/<%= item['id'] %>">Show</a>
+    </div>
+    <div class="clear-both"></div>
+  </article>
+  <% end %>
+  <% end %>
+
+</section>
